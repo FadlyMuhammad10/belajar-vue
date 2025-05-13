@@ -1,7 +1,7 @@
 <script setup>
 import MainButton from './components/MainButton.vue'
-import OptionsComponent from './components/OptionsComponent.vue'
-import CompositionComponent from './components/CompositionComponent.vue'
+// import OptionsComponent from './components/OptionsComponent.vue'
+// import CompositionComponent from './components/CompositionComponent.vue'
 const name = 'John Doe'
 </script>
 
