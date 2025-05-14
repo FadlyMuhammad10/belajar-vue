@@ -1,15 +1,15 @@
 <script setup>
-// const disabled = true
-const buttAttr = {
-  disabled: true,
-  class: 'btn',
-  type: 'submit',
-}
+const props = defineProps({
+  name: String,
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+})
 </script>
 
 <template>
-  <!-- <button :disabled="disabled">Button</button> -->
-  <button v-bind="buttAttr">Button</button>
+  <button :disabled="props.disabled">{{ props.name }}</button>
 </template>
 
 <style scoped></style>

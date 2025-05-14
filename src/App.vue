@@ -8,7 +8,8 @@ const body = '<h1 style="color: red">ini description</h1>'
 </script>
 
 <template>
-  <MainButton></MainButton>
+  <MainButton :name="'Button 1'"></MainButton>
+  <MainButton name="Button 2" disabled="true"></MainButton>
 
   <!-- ini menggunakan interpolation -->
   <h1>{{ name }}</h1>
